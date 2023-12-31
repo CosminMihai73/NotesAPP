@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #8DD3FFFF;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+    background-color: #8DD3FFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+form {
+    border: 3px solid #8DD3FFFF;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=password] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img.avatar {
+    width: 30%;
+    border-radius: 70%;
+}
+
+.container {
+    padding: 16px;
+    background-color: #8DD3FFFF; /* culoare de fundal pentru zona Register */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+span.register {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Schimbă stilurile pentru span și butonul de anulare pe ecrane mici */
+@media screen and (max-width: 300px) {
+    span.register {
+        display: block;
+        float: none;
+    }
+}
+
+.container-bg {
+    background-color: #8DD3FFFF; /* culoare de fundal pentru zona de Autentificare */
+}
+
+.container-bg-alt {
+    background-color: #8DD3FFFF;
+}
+
+.link {
+    text-decoration: none;
+    color: #04AA6D;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
